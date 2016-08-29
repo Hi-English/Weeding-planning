@@ -527,7 +527,7 @@
 	font:15px "微软雅黑";
 	color:darkgray;
 	line-height: 50px;
-	margin-left:-35px;
+        padding-left:20px;
 }
 .address-middle{
 	font:50px "微软雅黑";
@@ -554,7 +554,7 @@
 	font:15px "微软雅黑";
 	color:darkgray;
 	line-height: 50px;
-	margin-left:-35px;
+	padding-left:20px;
 }
 .footer{
 	width:1360px;
