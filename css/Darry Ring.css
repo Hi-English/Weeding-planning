@@ -261,3 +261,14 @@
     margin-left:800px;
     margin-top:-65px;
 }
+.friendlink{
+	text-align:center;
+	margin-top:20px;
+}
+.link{
+	color:white;
+	padding-left:50px;
+}
+.link:hover{
+	text-decoration:underline;
+}
