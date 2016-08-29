@@ -1,0 +1,104 @@
+.address{
+	width:1360px;
+	height:300px;
+	position: relative;
+}
+.address-left{
+	font:50px "Î¢ÈíÑÅºÚ";
+	color:#02c7da;
+	position:absolute;
+	top: 90px;
+	left:250px;
+}
+.left-span{
+	font:15px "Î¢ÈíÑÅºÚ";
+	color:darkgray;
+	line-height: 50px;
+	padding-left:30px;
+}
+.address-middle{
+	font:50px "Î¢ÈíÑÅºÚ";
+	color:#02c7da;
+	position:absolute;
+	left:550px;
+	top: 90px;
+}
+.middle-span{
+	font:15px "Î¢ÈíÑÅºÚ";
+	color:darkgray;
+	line-height: 50px;
+	padding-left:50px;
+	
+}
+.address-right{
+	font:50px "Î¢ÈíÑÅºÚ";
+	color:#02c7da;
+	position:absolute;
+	left:950px;
+	top: 90px;
+}
+.right-span{
+	font:15px "Î¢ÈíÑÅºÚ";
+	color:darkgray;
+	line-height: 50px;
+	padding-left:-20px;
+}
+.footer{
+	width:1360px;
+	height:236px;
+	background: black;
+	position: relative;;
+}
+.footer-p{
+	text-align: center;
+	font: 20px "Î¢ÈíÑÅºÚ";
+	color:white;
+	padding-top:50px;
+}
+.icon-left{
+	width:55px;
+	height:55px;
+    display: block;
+    background: url(../img/img-sprite.png)no-repeat 11px 10px;
+    border:5px solid white;
+    border-radius: 100px;
+    margin-left:500px;
+    margin-top:20px;
+}
+.icon-left:hover,.icon-middle:hover,.icon-right:hover,.icon-right-right:hover{
+	border-color: #02c7da;
+	transition: 1s;
+}
+.icon-middle{
+	width:55px;
+	height:55px;
+    display: block;
+    background: url(../img/img-sprite.png)no-repeat 11px 10px;
+    border:5px solid white;
+    border-radius: 100px;
+    background-position:-75px 10px;
+    margin-left:600px;
+    margin-top:-65px;
+}
+.icon-right{
+	width:55px;
+	height:55px;
+    display: block;
+    background: url(../img/img-sprite.png)no-repeat 11px 10px;
+    border:5px solid white;
+    border-radius: 100px;
+    background-position:-182px 10px;
+    margin-left:700px;
+    margin-top:-65px;
+}
+.icon-right-right{
+	width:55px;
+	height:55px;
+    display: block;
+    background: url(../img/img-sprite.png)no-repeat 11px 10px;
+    border:5px solid white;
+    border-radius: 100px;
+    background-position:-282px 10px;
+    margin-left:800px;
+    margin-top:-65px;
+}

@@ -1,0 +1,264 @@
+.content{
+	width:1330px;
+	height:100%;
+	margin:0 auto;
+}
+.img{
+	width:1330px;
+	height:800px;
+	background: url(../img/mr.jpg);
+}
+.gift{
+	width: 526px;
+    height: 150px;
+    background: rgba(255,255,255,0.5);
+    float:left;
+    margin:229px 0px 0px 397px;;
+}
+.gift-p{
+	font:80px "隶书";
+	text-align:center;
+	padding-top:25px;
+}
+.nav-list{
+	margin-left:370px;
+	margin-top: 40px;
+}
+.nav li{
+	display: inline-block;
+	margin-left:50px;
+	padding:10px;
+	font:20px "微软雅黑";
+}
+
+.nav li:hover{
+	background: rgba(242,10,10,0.3);
+	transition:1s;
+}
+.main{
+	width:1330px;
+    margin-top:50px;
+	float:left;
+}
+.main-left{
+	width:450px;
+	float:left;
+}
+.invitation{
+	width:489px;
+	height:306px;
+	background: url(../img/invitation.gif);
+}
+.invitation-p{
+	font:25px "JosefinSans-Light";
+	text-align: center;	
+}
+.wedding-car{
+	width:489px;
+	height:306px;
+	background: url(../img/wedding-car.jpg);
+	margin-top:45px;
+}
+.wedding-car-p{
+	font:25px "JosefinSans-Light";
+	text-align: center;
+}
+.main-middle{
+	width:430px;
+	float:left;
+}
+.main-middle-img{
+	width:351px;
+	height:515px;
+	background: url(../img/brid.jpg);
+	margin-left:60px;
+}
+.FLOWER{
+	width:351px;
+	height:155px;
+	background: url(../img/FLOWER.jpg);
+    margin-top:50px;
+    margin-left:60px;
+}
+.FLOWER-p{
+	font:25px "JosefinSans-Light";
+	text-align: center;
+}
+.main-right{
+	width:450px;
+	float:right;
+}
+
+.Wedding-ring{
+	width:489px;
+	height:306px;
+	background: url(../img/ring.jpg);
+     margin:0px 0 0 60px;
+}
+.Wedding-ring-p{
+	font:25px "JosefinSans-Light";
+	text-align: center;
+}
+.Souvenir{
+	width:489px;
+	height:306px;
+	background: url(../img/Souvenir.jpg);
+    margin-top:50px;
+}
+.Souvenir-p{
+	font:25px "JosefinSans-Light";
+	text-align: center;
+}
+
+.invitation-p,.wedding-car-p,.Wedding-ring-p,.Souvenir-p,.FLOWER-p{
+	padding-top:30px;
+	color:darkgray;
+    cursor:pointer;
+}
+.banner{
+	width:1330px;
+    float:left;
+}
+.product{
+	text-align: center;
+	color:#00A0DC;
+	padding-top:50px;
+}
+.product-img{
+	width:1330px;
+	float:left;
+}
+.img-ul li{
+	display: inline-block;
+	margin-left:130px;
+	padding-top:20px;
+}
+.img-ul .p{
+	color:black;
+	margin-left:50px;
+	margin-top:20px;
+}
+.img-p{
+	color:gray;
+	margin-left: 28px;
+}
+.img-span{
+	text-decoration:line-through;
+	
+}
+.more{
+	width: 70px;
+    height: 30px;
+    margin-left: 40;
+    margin-top: 16px;
+    border: 1px solid gray;
+	
+}
+.address{
+	width:1360px;
+	height:300px;
+	position: relative;
+	top:2200px;
+
+}
+.address-left{
+	font:50px "微软雅黑";
+	color:#02c7da;
+	position:absolute;
+	top: 90px;
+	left:250px;
+}
+.left-span{
+	font:15px "微软雅黑";
+	color:darkgray;
+	line-height: 50px;
+	padding-left:30px;
+}
+.address-middle{
+	font:50px "微软雅黑";
+	color:#02c7da;
+	position:absolute;
+	left:550px;
+	top: 90px;
+}
+.middle-span{
+	font:15px "微软雅黑";
+	color:darkgray;
+	line-height: 50px;
+	padding-left:50px;
+	
+}
+.address-right{
+	font:50px "微软雅黑";
+	color:#02c7da;
+	position:absolute;
+	left:950px;
+	top: 90px;
+}
+.right-span{
+	font:15px "微软雅黑";
+	color:darkgray;
+	line-height: 50px;
+	padding-left:-20px;
+}
+.footer{
+	width:1360px;
+	height:236px;
+	background: black;
+	float:left;
+	margin-top:300px;
+   z-index: 1;
+}
+.footer-p{
+	text-align: center;
+	font: 20px "微软雅黑";
+	color:white;
+	padding-top:50px;
+}
+.icon-left{
+	width:55px;
+	height:55px;
+    display: block;
+    background: url(../img/img-sprite.png)no-repeat 11px 10px;
+    border:5px solid white;
+    border-radius: 100px;
+    margin-left:500px;
+    margin-top:20px;
+}
+.icon-left:hover,.icon-middle:hover,.icon-right:hover,.icon-right-right:hover{
+	border-color: #02c7da;
+	transition: 1s;
+}
+.icon-middle{
+	width:55px;
+	height:55px;
+    display: block;
+    background: url(../img/img-sprite.png)no-repeat 11px 10px;
+    border:5px solid white;
+    border-radius: 100px;
+    background-position:-75px 10px;
+    margin-left:600px;
+    margin-top:-65px;
+}
+.icon-right{
+	width:55px;
+	height:55px;
+    display: block;
+    background: url(../img/img-sprite.png)no-repeat 11px 10px;
+    border:5px solid white;
+    border-radius: 100px;
+    background-position:-182px 10px;
+    margin-left:700px;
+    margin-top:-65px;
+}
+.icon-right-right{
+	width:55px;
+	height:55px;
+    display: block;
+    background: url(../img/img-sprite.png)no-repeat 11px 10px;
+    border:5px solid white;
+    border-radius: 100px;
+    background-position:-282px 10px;
+    margin-left:800px;
+    margin-top:-65px;
+}
