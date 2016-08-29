@@ -1,6 +1,6 @@
-body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,form,table,td,img,div,input,textarea,select{margin:0;padding:0;list-style:none;} 
+﻿body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,form,table,td,img,div,input,textarea,select{margin:0;padding:0;list-style:none;} 
 font{"΢微软雅黑","宋体","Arial Narrow";}  
-a{text-decoration: none;color:black;}
+a{text-decoration: none;}
 .clearFloat{
 	zoom: 1;
 }
